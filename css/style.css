@@ -404,8 +404,8 @@ a:focus {
 }
 .vip_part .vip_line svg {
   position: absolute;
-  top: 260px;
-  left: 167px;
+  top: 226px;
+  left: 171px;
   width: 292px;
 }
 .vip_part .vip_text {
@@ -417,7 +417,7 @@ a:focus {
   --backdrop-filter: blur(20px);
   border-radius: 20px;
   left: 80px;
-  top: 240px;
+  top: 203px;
   z-index: 99;
 }
 .car_icon img {
@@ -441,9 +441,9 @@ a:focus {
 }
 .transferairport_part .transfer_line svg {
   position: absolute;
-  top: 271px;
-  left: 206px;
-  height: 222px;
+  top: 280px;
+  left: 193px;
+  height: 200px;
 }
 .transferairport_part .transferairport_text {
   position: absolute;
@@ -454,7 +454,7 @@ a:focus {
   --backdrop-filter: blur(20px);
   border-radius: 20px;
   left: 57px;
-  top: 457px;
+  top: 435px;
   z-index: 99;
 }
 .bus_icon img {
@@ -485,7 +485,7 @@ a:focus {
 .delivery_part .delivery_line svg {
   position: absolute;
   top: 279px;
-  left: 210px;
+  left: 190px;
   height: 193px;
 }
 .delivery_part .delivery_text {
@@ -496,7 +496,7 @@ a:focus {
   border-bottom: 0.5px solid #FFFFFF;
   --backdrop-filter: blur(20px);
   border-radius: 20px;
-  left: 97px;
+  left: 83px;
   top: 471px;
   z-index: 99;
 }
@@ -852,7 +852,7 @@ a:focus {
 }
 @media screen and (max-width: 990px) {
   .aratours {
-    max-height: 1200px;
+    max-height: 100vh;
   }
   .image_part {
     top: 0;
@@ -945,13 +945,13 @@ a:focus {
     top: 63px;
 }
   .vip_part .vip_line svg {
-    top: 161px;
+    top: 148px;
     left: 37px;
     width: 254px;
 }
   .vip_part .vip_text {
     width: 190px;
-    top: 140px;
+    top: 125px;
     left: -47px;
   }
   .alpweb_part .alp_web_line svg {
@@ -970,16 +970,16 @@ a:focus {
   }
   .delivery_part .delivery_text {
     top: 315px;
-    left: 56px;
+    left: 23px;
   }
   .transferairport_part .transfer_line svg {
-    top: 187px;
-    left: 36px;
-    height: 166px;
+    top: 174px;
+    left: 31px;
+    height: 160px;
   }
   .transferairport_part .transferairport_text {
     left: -80px;
-    top: 316px;
+    top: 298px;
   }
   .info_part {
     flex-direction: column;
