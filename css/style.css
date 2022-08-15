@@ -851,6 +851,9 @@ a:focus {
   }
 }
 @media screen and (max-width: 990px) {
+  .aratours {
+    max-height: 1200px;
+  }
   .image_part {
     top: 0;
   }
