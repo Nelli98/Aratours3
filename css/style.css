@@ -577,6 +577,16 @@ a:focus {
   animation: dash 10s linear alternate infinite;
   stroke-opacity: 1;
 }
+.transfer_part:hover .alptransfer circle,
+.excursion_part:hover .excursion circle,
+.tour_part:hover .tour circle,
+.vip_part:hover .vip_line circle,
+.newmenu_part:hover .new_menu circle,
+.transferairport_part:hover .transfer_line circle,
+.delivery_part:hover .delivery_line circle,
+.alpweb_part:hover .alp_web_line circle {
+  fill: #fff;
+}
 .icons {
   position: relative;
   display: flex;
@@ -852,7 +862,7 @@ a:focus {
 }
 @media screen and (max-width: 990px) {
   .aratours {
-    max-height: 100vh;
+    height: 100vh;
   }
   .image_part {
     top: 0;
@@ -867,8 +877,8 @@ a:focus {
     padding-top: 15px;
   }
   .left_img:hover .img_hover {
-  width: 33px;
-  padding-top: 15px;
+    width: 33px;
+    padding-top: 15px;
   }
   .right_img {
     width: 50px;
@@ -938,17 +948,17 @@ a:focus {
     right: 126px;
     top: 60px;
     width: 122px;
-}
+  }
   .newmenu_part .newmenu_text {
     right: -50px;
     width: 180px;
     top: 63px;
-}
+  }
   .vip_part .vip_line svg {
     top: 148px;
     left: 37px;
     width: 254px;
-}
+  }
   .vip_part .vip_text {
     width: 190px;
     top: 125px;
@@ -987,6 +997,25 @@ a:focus {
   }
   .footer {
     top: 30%;
+  }
+  .info img {
+    width: 35px;
+  }
+  .info p {
+    font-size: 30px;
+  }
+  .text-white {
+    font-size: 30px;
+  }
+  .text_white {
+    padding-top: 150px;
+    font-size: 40px;
+  }
+  .info {
+    padding: 10px 0 10px 0;
+  }
+  .icons {
+    top: 60px;
   }
 }
 @media screen and (max-width: 878px) {
@@ -1044,7 +1073,7 @@ a:focus {
     top: -63px;
     left: -82px;
     height: 153px;
-}
+  }
   .transfer_logo_text {
     left: -15px;
   }
